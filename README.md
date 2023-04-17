@@ -1,7 +1,7 @@
 
-# Python IP Range Calculator
+# Python IP Subnet Calculator
 
-This is a simple Python script that calculates the IP range for a given network address.
+This is a simple Python script that calculates the IP Subnet for a given network address.
 
 ## Usage
 
@@ -16,14 +16,14 @@ This is a simple Python script that calculates the IP range for a given network 
 
 ## Example
 
-If you want to calculate the IP range for the network address `10.62.12.0/23`, you can use the following code:
+If you want to calculate the IP Subnet for the network address `10.62.12.0/23`, you can use the following code:
 
     import socket
     import struct
     
-    def get_ip_range(network_address):
+    def get_ip_subnet(network_address):
         """
-        Calculates the IP range for a given network address.
+        Calculates the IP Subnet for a given network address.
     
         Args:
             network_address (str): The network address in CIDR notation (e.g., '10.62.12.0/23').
