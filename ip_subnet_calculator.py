@@ -1,13 +1,13 @@
 import socket
 import struct
 
-"""This code defines a function get_ip_range(network_address) that 
+"""This code defines a function get_ip_subnet(network_address) that 
 takes a network address in the form of a string, net, and returns 
 a list of IP addresses within that network. """
 
-def get_ip_range(network_address):
+def get_ip_subnet(network_address):
     """
-    Calculates the IP range for a given network address.
+    Calculates the IP Subnet for a given network address.
 
     Args:
         network_address (str): The network address in CIDR notation (e.g., '10.62.12.0/23').
