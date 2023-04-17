@@ -7,7 +7,7 @@ This is a simple Python script that calculates the IP Subnet for a given network
 
 1.  Open the script in a Python editor or IDE.
     
-2.  Replace the `network_address` variable with the network address you want to calculate the IP range for.
+2.  Replace the `network_address` variable with the network address you want to calculate the IP Subnet for.
     
 3.  Run the script.
     
@@ -41,8 +41,8 @@ If you want to calculate the IP Subnet for the network address `10.62.12.0/23`, 
     
 	""" Example """
 	network_address = '10.62.12.0/23'
-	ip_range = get_ip_range(network_address)
-	print(ip_range)
+	ip_list = get_ip_subnet(network_address)
+	print(ip_list)
 
 This will output the following IP addresses:
 
